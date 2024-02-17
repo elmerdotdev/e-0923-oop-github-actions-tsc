@@ -1,0 +1,17 @@
+{
+  "name": "e-0923-oop-github-actions-tsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify:js": "terser src/example.js -o src/example.min.js -c -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "terser": "^5.27.1",
+    "typescript": "^5.3.3"
+  }
+}
